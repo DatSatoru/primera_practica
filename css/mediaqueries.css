@@ -1,0 +1,39 @@
+@media(width>=768px) {
+    nav {
+        align-content: center;
+    }
+
+    .line {
+        flex-direction: row;
+
+        .hamburger {
+            display: none;
+        }
+    }
+
+    div.menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    div.menu ul.desp {
+
+        flex-direction: row;
+        margin: 0 15px;
+        gap: var(--gap);
+
+        li {
+            border-bottom: none;
+            padding-bottom: 10px;
+            opacity: 0.6;
+        }
+
+    }
+
+    header .upper li a span {
+        display: inline;
+        color: white;
+    }
+}

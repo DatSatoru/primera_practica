@@ -1,0 +1,127 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header .upper {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 50px;
+    align-content: center;
+
+    .contact {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    ul.icons {
+        display: flex;
+        justify-content: space-between;
+        margin: auto 20px;
+    }
+
+    li {
+        display: inline-block;
+        font-family: var(--primary-font);
+        margin: 0 20px;
+
+
+        a {
+            display: block;
+            color: white;
+
+            span {
+                display: none;
+            }
+
+            i {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
+
+
+
+header .lower {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 60px;
+
+    .container {
+        width: 100%;
+    }
+}
+
+.line {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+
+    figure {
+        align-content: center;
+
+        img {
+            width: 6rem;
+
+        }
+    }
+
+    .hamburger {
+        cursor: pointer;
+        width: 35px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+
+
+        div {
+            width: 100%;
+            height: 3px;
+            background-color: var(--text-color);
+            opacity: 0.6;
+            margin: 5px 0;
+        }
+
+    }
+
+}
+
+div.menu ul.desp {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    padding: 0 15px;
+    margin-bottom: 15px;
+
+
+
+    li {
+        border-bottom: 2px solid var(--text-color);
+        align-content: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        opacity: 0.6;
+
+        &:last-child {
+            border: none;
+        }
+
+        a {
+            color: var(--text-color);
+            font-family: var(--primary-font);
+        }
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+
+}
