@@ -1,35 +1,80 @@
 section.main {
-    background-image: url(../images/fondo.jpg);
-    background-position: center;
-    background-repeat: space;
-    background-blend-mode: multiply;
-    background-color: #818181;
-    align-content: center;
     position: relative;
     top: 170px;
     width: 100%;
     height: 50vh;
     padding: 15px;
-
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    background-repeat: space;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #818181;
+    align-content: center;
 
     article {
         display: flex;
         flex-direction: column;
         gap: var(--gap);
+
+        .btn {
+            color: white;
+            font-size: 400;
+            padding: 15px;
+            display: inline-block;
+            background-color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+
+            i {
+                position: relative;
+                left: 5px;
+                font-size: small;
+            }
+
+            &:hover {
+                background-color: transparent;
+                color: var(--primary-color);
+                transition: 0.1s;
+
+                i {
+                    transition: 0.5s;
+                    left: 10px;
+                }
+
+            }
+
+        }
+
+        h1 {
+            font-family: var(--secondary-font);
+            color: white;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: var(--primary-color);
+        }
+
+        h4 {
+            color: white;
+        }
+
     }
 
-    h1 {
-        font-family: var(--secondary-font);
-        color: white;
-        font-size: 2rem;
+    .carta {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap);
+        width: 160px;
     }
 
-    h3 {
-        color: var(--primary-color);
-    }
+    .social {
+        display: flex;
+        justify-content: space-around;
 
-    h4 {
-        color: white;
+        a {
+            font-size: x-large;
+            color: white;
+        }
     }
-
 }
