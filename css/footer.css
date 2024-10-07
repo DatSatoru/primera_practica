@@ -1,6 +1,6 @@
 footer {
     background-color: var(--secondary-color);
-    position: sticky;
+    position: fixed;
     height: 50px;
     display: inline-block;
     bottom: 0;
