@@ -1,0 +1,79 @@
+#ourservices {
+    font-family: var(--secondary-font);
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+
+
+    h2 {
+        color: black;
+        margin: 0 auto;
+        font-weight: 600;
+
+        span {
+            color: var(--primary-color);
+        }
+    }
+
+    .division {
+        color: var(--primary-color);
+        font-family: var(--primary-font);
+        font-weight: bolder;
+        display: flex;
+        margin: 0 auto;
+        text-decoration: line-through;
+
+    }
+
+
+}
+
+.apartados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .apar {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap);
+        margin: 0.625rem 1.25rem;
+        border-bottom: 0.125rem solid rgba(0, 0, 0, 0.2);
+
+        h4 {
+            font-weight: bold;
+        }
+
+        i {
+            font-size: x-large;
+            color: var(--primary-color);
+            display: block;
+            text-align: center;
+            align-content: center;
+            width: 3.125rem;
+            height: 3.125rem;
+            border: 0.0625rem solid var(--primary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 1.25rem;
+            font-weight: bold;
+
+            i {
+                width: 0;
+                height: 0;
+                padding: 0.1875rem;
+                border: none;
+                font-size: x-small;
+            }
+        }
+    }
+}
+
+.calltoaction {
+    margin-bottom: 100px;
+}

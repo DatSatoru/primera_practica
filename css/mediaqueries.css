@@ -40,4 +40,15 @@
     section.main {
         top: 0;
     }
+
+    .apartados {
+        width: 100%;
+        flex-direction: row;
+
+        .apar {
+            padding: 20px;
+            border-left: 2px solid rgba(0, 0, 0, 0.2);
+            border-bottom: none;
+        }
+    }
 }
