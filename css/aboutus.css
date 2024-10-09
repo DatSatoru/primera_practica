@@ -6,18 +6,18 @@
     padding: 1.25rem;
 
     figure {
-        margin: 20px;
+        margin: 1.25rem;
         display: block;
         margin: 0 auto;
         display: flex;
         justify-content: center;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
 
         .marco {
             transform: rotate(10deg);
             width: 80%;
 
-            border: 2px solid var(--primary-color);
+            border: 0.125rem solid var(--primary-color);
             align-content: center;
 
             &:hover {
@@ -31,9 +31,6 @@
             margin: 0 auto;
             width: 100%;
             display: block;
-
-
-
 
             &:hover {
                 transition: 1s;
@@ -50,7 +47,7 @@
         width: 100%;
 
         a {
-            width: 130px;
+            width: 8.125rem;
         }
     }
 
