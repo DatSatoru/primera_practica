@@ -58,6 +58,7 @@
 
         a {
             color: var(--primary-color);
+
             display: flex;
             flex-direction: row;
             margin-bottom: 1.25rem;
