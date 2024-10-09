@@ -17,6 +17,18 @@
             }
         }
     }
+
+    .aboutus {
+        flex-direction: row;
+
+        figure {
+            width: 100%;
+        }
+
+        .history {
+            width: 100%;
+        }
+    }
 }
 
 @media(width>=769px) {
@@ -84,5 +96,21 @@
             }
         }
 
+    }
+
+    .aboutus {
+        figure {
+            padding: 0;
+            width: 50%;
+
+            .marco {
+                width: 90%;
+            }
+        }
+
+        .history {
+            padding: 20px;
+            width: 50%;
+        }
     }
 }

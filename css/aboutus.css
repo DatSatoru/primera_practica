@@ -1,0 +1,64 @@
+.aboutus {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1.25rem;
+
+    figure {
+        margin: 20px;
+        display: block;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        .marco {
+            transform: rotate(10deg);
+            width: 80%;
+
+            border: 2px solid var(--primary-color);
+            align-content: center;
+
+            &:hover {
+                transition: 1s;
+                transform: none;
+            }
+        }
+
+        img {
+            transform: rotate(-10deg);
+            margin: 0 auto;
+            width: 100%;
+            display: block;
+
+
+
+
+            &:hover {
+                transition: 1s;
+                transform: none;
+
+            }
+        }
+    }
+
+    .history {
+        display: flex;
+        flex-direction: column;
+        gap: var(--gap);
+        width: 100%;
+
+        a {
+            width: 130px;
+        }
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    h5 {
+        color: var(--primary-color);
+    }
+}

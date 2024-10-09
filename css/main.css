@@ -17,64 +17,38 @@ section.main {
         gap: var(--gap);
         padding: 1.25rem;
 
-        .btn {
-            color: white;
-            font-size: 400;
-            padding: 0.9375rem;
-            display: inline-block;
-            background-color: var(--primary-color);
-            border: 1px solid var(--primary-color);
-
-            i {
-                position: relative;
-                left: 0.3125rem;
-                font-size: small;
-            }
-
-            &:hover {
-                background-color: transparent;
-                color: var(--primary-color);
-                transition: 0.1s;
-
-                i {
-                    left: 0.625rem;
-                    transition: left 0.5s;
-                }
-
-            }
-
-        }
-
-        h1 {
-            font-family: var(--secondary-font);
-            color: white;
-            font-size: 2rem;
-        }
-
-        h3 {
-            color: var(--primary-color);
-        }
-
-        h4 {
-            color: white;
-        }
 
     }
 
-    .carta {
-        display: flex;
-        flex-direction: column;
-        gap: var(--gap);
-        width: 10rem;
+    h1 {
+        font-family: var(--secondary-font);
+        color: white;
+        font-size: 2rem;
     }
 
-    .social {
-        display: flex;
-        justify-content: space-around;
+    h3 {
+        color: var(--primary-color);
+    }
 
-        a {
-            font-size: x-large;
-            color: white;
-        }
+    h4 {
+        color: white;
+    }
+
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    width: 10rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+        font-size: x-large;
+        color: white;
     }
 }
