@@ -25,6 +25,13 @@ footer {
     }
 
     .upbtn a {
-        display: none;
+        color: var(--primary-color);
+        font-size: 3rem;
+        display: inline-block;
+        position: absolute;
+        bottom: 3.125rem;
+        right: 0;
+        width: 3.125rem;
+        height: 3.125rem;
     }
 }
